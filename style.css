@@ -1,13 +1,13 @@
 body{
-    background: linear-gradient(90deg,#77cbd1,#966fd4);
+    background: linear-gradient(90deg,#222424,#232224);
 }
 .navbar{
-background: #dacccc;
+background: #5c5959;
 height: 110px;
 }
 .navbar h2{
     font-size: 30px;
-    color: #df1620;
+    color: #e9dedf;
     
 }
 #nav{
@@ -21,7 +21,7 @@ color: #1b1919;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #afa5a5;
+    background: #222121;
 }
 #home-image{
     position: relative;
@@ -62,13 +62,16 @@ box-shadow: 0 0 25px #df1620,
 #home-content h3{
     font-size: 3.7rem;
     font-weight: 700;
+    color: #f0e7e7;
 }
 #home-content h2{
     font-size: 30px;
+    color: #fff;
 }
 #home-content p{
     width: 600px;
     font-size: 20px;
+    color: #ebecf7;
 }
 span{
     color: #0c10ec;
