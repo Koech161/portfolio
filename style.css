@@ -33,16 +33,16 @@ color: #1b1919;
     height: 25vw;
     animation: floatImage 4s ease-in-out infinite;
     transition:0.4s ease ;
-    box-shadow: 0 0 25px #16df42;
+    box-shadow: 0 0 25px #c5971a;
     cursor: pointer;
     margin-left: 35px;
     
     
 }
 #home-image img:hover{
-box-shadow: 0 0 25px #df1620,
-            0 0 35px #df1620,
-            0 0 45px #df1620;
+box-shadow: 0 0 25px #e4868a,
+            0 0 35px #e9989c,
+            0 0 45px #d6797e;
 }
 @keyframes floatImage{
     0% {
@@ -72,6 +72,7 @@ box-shadow: 0 0 25px #df1620,
     width: 600px;
     font-size: 20px;
     color: #ebecf7;
+    
 }
 span{
     color: #0c10ec;
