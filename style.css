@@ -116,3 +116,30 @@ span{
     background: #16df42;
     box-shadow: 0 0 25px #f70404;
 }
+.contact {
+padding-top: 100px;
+color: var(--secondary-color);
+}
+#submit h2{
+    font-size: 50px;
+}
+#submit{
+    font-size: 20px;
+}
+#email{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+#message{
+    display: grid;
+    grid-row: 4;
+    border: var(--main-color);
+}
+button{
+    color: rgb(243, 241, 241);
+    background:orangered;
+    font-size: 20px;
+    border-radius: 10px;
+}
