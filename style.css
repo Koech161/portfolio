@@ -1,10 +1,26 @@
 body{
-    background: linear-gradient(90deg,#222424,#232224);
+    background:var(--primary-color);
 }
 .navbar h2{
     font-size: 30px;
-    color: #e9dedf;
+    color: var(--secondary-color);
     
+}
+#icon{
+    width: 30px;
+    flex: 1;
+    float: right;
+    cursor: pointer;
+}
+:root{
+    --primary-color:#fcf8f8;
+    --secondary-color:#0e0d0d;
+
+    
+}
+.dark-theme{
+    --primary-color:#080808;
+    --secondary-color:#fcf5f5;
 }
 #nav{
 float: right;
@@ -17,7 +33,7 @@ color: #1b1919;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #222121;
+    background: var(--primary-color);
     width: 70%;
 }
 #home-image{
@@ -63,16 +79,16 @@ box-shadow: 0 0 25px #e4868a,
 #home-content h3{
     font-size: 3.7rem;
     font-weight: 700;
-    color: #f0e7e7;
+    color: var(--secondary-color);
 }
 #home-content h2{
     font-size: 30px;
-    color: #fff;
+    color: var(--secondary-color);
 }
 #home-content p{
    max-width:600px;
     font-size: 20px;
-    color: #ebecf7;
+    color:var(--secondary-color);
     flex-wrap: wrap;
     
 }
@@ -99,19 +115,4 @@ span{
 #resume-btn:hover{
     background: #16df42;
     box-shadow: 0 0 25px #f70404;
-}
-#hire{
-    width: 150px;
-    height: 40px;
-    background: #ee077b;
-    border: none;
-    border-radius: 15px;
-    font-size: 20px;
-    font-style: oblique;
-    color: #f7f1f1;
-    cursor: pointer;
-}
-#hire:hover{
-    background: #4d4c4e;
-    color: #000;
 }
