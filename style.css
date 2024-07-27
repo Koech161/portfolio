@@ -2,7 +2,7 @@ body{
     background:var(--primary-color);
 }
 .navbar h2{
-    font-size: 30px;
+    font-size: 2vw;
     color: var(--secondary-color);
     
 }
@@ -52,7 +52,7 @@ color: #1b1919;
     box-shadow: 0 0 25px #c5971a;
     cursor: pointer;
     margin-left: 35px;
-    
+    line-height: 25vw;
     
 }
 #home-image img:hover{
@@ -77,17 +77,17 @@ box-shadow: 0 0 25px #e4868a,
     flex-wrap: wrap;
 }
 #home-content h3{
-    font-size: 3.7rem;
+    font-size: 2.5vw;
     font-weight: 700;
     color: var(--secondary-color);
 }
 #home-content h2{
-    font-size: 30px;
+    font-size: 2vw;
     color: var(--secondary-color);
 }
 #home-content p{
    max-width:600px;
-    font-size: 20px;
+    font-size:2vw;
     color:var(--secondary-color);
     flex-wrap: wrap;
     
@@ -95,7 +95,7 @@ box-shadow: 0 0 25px #e4868a,
 span{
     color: #0c10ec;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 .btn{
     display: flex;
@@ -104,12 +104,12 @@ span{
 }
 #resume-btn{
     background: #e43905;
-    font-size: 20px;
+    font-size: 2vw;
     border-radius: 10px;
     border: none;
     color: #fff;
     height: 40px;
-    box-shadow: 0 0 25px #4a04ec;
+    box-shadow: 0 0 25px #e25da6;
     cursor: pointer;
 }
 #resume-btn:hover{
@@ -121,25 +121,47 @@ padding-top: 100px;
 color: var(--secondary-color);
 }
 #submit h2{
-    font-size: 50px;
+    font-size: 2.5vw;
 }
 #submit{
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 #email{
-    font-size: 20px;
+    font-size: 1.2vw;
     border: none;
     border-radius: 10px;
+    background-color: #dbd0d0;
 
 }
 #message{
     display: grid;
     grid-row: 4;
     border: var(--main-color);
+    background:#dbd0d0 ;
+    font-size: 1vw;
 }
 button{
     color: rgb(243, 241, 241);
     background:orangered;
-    font-size: 20px;
+    font-size: 2vw;
     border-radius: 10px;
+}
+.social-media{
+    
+    color: #fd0808;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+}
+.social-media div{ 
+    padding: 30px;
+   
+    /* margin: 6px; */
+    
+    /* background-color: #7e7474; */
+    border-radius: 50%;
+    font-size: 1.5vw;
+    
+    
+    
 }
