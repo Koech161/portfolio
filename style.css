@@ -41,7 +41,8 @@ color: #1b1919;
     float: left;
     justify-content: left;
     padding-left: 10%;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-top: -150%;
 }
 #home-image img{
     border-radius: 50%;
@@ -51,8 +52,9 @@ color: #1b1919;
     transition:0.4s ease ;
     box-shadow: 0 0 25px #c5971a;
     cursor: pointer;
-    margin-left: 35px;
+    margin-left: 20px;
     line-height: 25vw;
+    margin-top: -50px;
     
 }
 #home-image img:hover{
@@ -134,8 +136,7 @@ color: var(--secondary-color);
 
 }
 #message{
-    display: grid;
-    grid-row: 4;
+    display: block;
     border: var(--main-color);
     background:#dbd0d0 ;
     font-size: 1vw;
@@ -145,13 +146,15 @@ button{
     background:orangered;
     font-size: 2vw;
     border-radius: 10px;
+    /* padding: 10px 20px; */
 }
 .social-media{
     
     color: #fd0808;
     display: flex;
-    /* justify-content: space-between; */
-    margin-top: 30px;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+
 }
 .social-media div{ 
     padding: 30px;
@@ -162,6 +165,41 @@ button{
     border-radius: 50%;
     font-size: 1.5vw;
     
-    
+}
+.social-media div:hover{
+    background: #8f8a8a;
+}
+/* .project-image{
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    float: left;
+} */
+.projects h1{
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 3vw;
+}
+/* .projects {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+} */
+figure figcaption{
+    font-size: 2vw;
+    cursor: pointer;
+    color: var(--secondary-color);
     
 }
+figure figcaption:hover{
+    color: rgba(7, 243, 47, 0.952);
+    
+}
+figure img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+#copy{
+    text-align: center;
+}
+
